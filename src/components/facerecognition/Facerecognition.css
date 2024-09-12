@@ -1,0 +1,14 @@
+.bounding-box {
+    position: absolute;
+    box-shadow: 0 0 0 3px #00C9FF;
+    display: flex;
+    border-radius: 6px;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#inputimage {
+    box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.258);
+    border-radius: 6px;
+}
