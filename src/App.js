@@ -9,7 +9,6 @@ import Register from './components/register/Register';
 import FaceRecognition from './components/facerecognition/Facerecognition';
 import { Component } from 'react';
 
-
 const initialState = {
       input: "",
       imageUrl: "",
@@ -109,7 +108,7 @@ onRouteChange = (route) => {
     return (
       <div className="App">
            <ParticlesBg type="cobweb" color="#00C9FF" num={666}  bg={true} />
-        <Navigation isSignedIn={isSignedIn} onRouteChange = {this.onRouteChange} />
+           <Navigation isSignedIn={isSignedIn} onRouteChange = {this.onRouteChange} />
           { route === 'home'
           ?
           <div>
